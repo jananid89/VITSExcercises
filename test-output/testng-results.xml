@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="19" total="23" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-12T21:06:57 CDT" name="Suite" finished-at="2022-07-12T21:07:08 CDT" duration-ms="11613">
+    <groups>
+    </groups>
+    <test started-at="2022-07-12T21:06:57 CDT" name="Test" finished-at="2022-07-12T21:07:08 CDT" duration-ms="11613">
+      <class name="VITSExcercises.Excercises.Excercise3">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:VITSExcercises.Excercises.Excercise3@47d9a273]" started-at="2022-07-12T21:06:57 CDT" name="beforeTest" finished-at="2022-07-12T21:06:57 CDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- VITSExcercises.Excercises.Excercise3 -->
+      <class name="VITSExcercises.Excercises.Excercise7">
+        <test-method signature="selectBrowser(java.lang.String)[pri:0, instance:VITSExcercises.Excercises.Excercise7@58695725]" started-at="2022-07-12T21:06:57 CDT" name="selectBrowser" finished-at="2022-07-12T21:07:00 CDT" duration-ms="3127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method signature="Launch()[pri:0, instance:VITSExcercises.Excercises.Excercise7@58695725]" started-at="2022-07-12T21:07:00 CDT" name="Launch" finished-at="2022-07-12T21:07:03 CDT" depends-on-methods="VITSExcercises.Excercises.Excercise7.selectBrowser" duration-ms="2569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="GmailLogin()[pri:0, instance:VITSExcercises.Excercises.Excercise7@58695725]" started-at="2022-07-12T21:07:03 CDT" name="GmailLogin" finished-at="2022-07-12T21:07:05 CDT" depends-on-methods="VITSExcercises.Excercises.Excercise7.Launch" duration-ms="2704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GmailLogin -->
+        <test-method signature="composeMail()[pri:0, instance:VITSExcercises.Excercises.Excercise7@58695725]" started-at="2022-07-12T21:07:05 CDT" name="composeMail" finished-at="2022-07-12T21:07:08 CDT" depends-on-methods="VITSExcercises.Excercises.Excercise7.GmailLogin" duration-ms="2461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- composeMail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VITSExcercises.Excercises.Excercise7@58695725]" started-at="2022-07-12T21:07:08 CDT" name="tearDown" finished-at="2022-07-12T21:07:08 CDT" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- VITSExcercises.Excercises.Excercise7 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
